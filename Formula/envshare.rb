@@ -7,17 +7,17 @@ class Envshare < Formula
   on_macos do
     on_arm do
       url "https://github.com/s-pl/envShare/releases/download/v2.0.1/envshare-macos-arm64"
-      sha256 "4930193f04d82527ac3cb1a3b05b66f8f25590de9accf25ab6ab03c7b969d99f"
+      sha256 "7324ffe5a6ecde8a8450a32ba3dd123b51c60f1e9c4e4dd676235789f3450c3b"
     end
     on_intel do
       url "https://github.com/s-pl/envShare/releases/download/v2.0.1/envshare-macos-x64"
-      sha256 "d90be5186eed80c7ccc155321021040d87c4c195667e34594b83622b7fe6fcd6"
+      sha256 "bb8c9bd912f9d7d044273a845250ec81af246dbb97a5064c58861206a010c94e"
     end
   end
 
   on_linux do
     url "https://github.com/s-pl/envShare/releases/download/v2.0.1/envshare-linux-x64"
-    sha256 "203a072915a2fcc6d48c75d3ac6d9d1df5fd0bf44227fde2e41bc39db8d7c8c0"
+    sha256 "b08134596f507a79c6f3151e9ee8bb8611b296105bea2f4e84bfeb601e8184e5"
   end
 
   def install
